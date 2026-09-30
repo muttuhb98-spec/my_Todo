@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+.main-container-bg{
+    background-color: #21F1A8;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+.top-heading{
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.container-bg{
+    background-color: #171717;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.top-container{
+    background-color: #fbf6f6;
+    height: 48%;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.naming{
+  font-size: 25px;
+  font-style: bold;
+  font-family:'Times New Roman', Times, serif;
+}
+.bottom-container{
+    background-color: #fbf6f6;
+    height: 48%;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+#todoInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#addButton {
+  margin: 10px;
+  padding: 11px 30px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.filter-container {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.filter-container button {
+  padding: 8px 15px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+}
+
+#todoList {
+  padding: 0;
+  list-style: none;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-radius: 4px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete-button {
+  cursor: pointer;
+  margin-left: 8px;
+}
